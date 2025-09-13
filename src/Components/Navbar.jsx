@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="fixed top-0 left-0 w-full z-50">
                 {/* Desktop Navbar */}
                 <div className="hidden lg:block absolute top-6 left-1/2 transform -translate-x-1/2 w-full max-w-6xl mx-auto px-8">
-                    <div className="bg-white/80 backdrop-blur-md rounded-full shadow-2xl px-8 py-4">
+                    <div className="bg-white/70 backdrop-blur-md rounded-full shadow-2xl px-8 py-4">
                         <div className="flex justify-between items-center">
                             {/* Logo */}
                             <div className="flex items-center">
