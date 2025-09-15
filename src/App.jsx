@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AyurvedicApp from "./AyurvedicApp";
+import Chatbot from "./Components/Chatbot";
 
 // Example extra pages
 // import Home from "./pages/Home";
@@ -60,6 +61,7 @@ function App() {
         {/* 404 Page */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
+      <Chatbot />
     </Router>
   );
 }

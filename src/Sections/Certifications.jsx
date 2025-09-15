@@ -119,7 +119,7 @@ const Certifications = () => {
               ].map((cert, index) => (
                 <div 
                   key={`duplicate-${index}`}
-                  className="flex-shrink-0 w-64 h-40  p-6 hover:shadow-xl transition-all duration-300 group"
+                  className="flex-shrink-0 w-64 h-40  p-6 transition-all duration-300 group"
                 >
                   <div className="flex items-center justify-center h-20 mb-4 rounded-lg transition-colors duration-200">
                     <div 

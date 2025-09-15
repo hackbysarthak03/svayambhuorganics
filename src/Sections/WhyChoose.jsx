@@ -8,7 +8,7 @@ const WhyChoose = () => {
                         {/* Section Header */}
                         <div className="text-left mb-24">
                             <h2 className="text-3xl lg:text-6xl font-bold text-gray-900 mb-4">
-                                Why you should <span className="text-green-700">choose us?</span>
+                                Why <span className="text-green-700">Choose Us?</span>
                             </h2>
                         </div>
 

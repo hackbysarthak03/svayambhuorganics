@@ -3,28 +3,32 @@ import { Mail, MapPin, Phone, Leaf } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-green-600 py-12 border-t border-gray-200">
+    <footer className="bg-white text-[#008236] border-t pt-10 pb-10 border-gray-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-          
+
           {/* Company Info & Newsletter */}
           <div className="lg:col-span-2">
             {/* Brand */}
             <div className="flex items-center mb-4">
-              <div className="bg-green-600 p-2 rounded-full mr-3">
-                <Leaf className="w-6 h-6 text-white" />
+              <div className="p-2 rounded-full">
+
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mr-3">
+                  <img src="https://res.cloudinary.com/doy34nvkz/image/upload/v1757679275/Untitled_design_28_fgkwqm.png" alt="Svayambhu Organics Logo" />
+                </div>
+
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-green-600">Svayambhu Organics</h2>
-                <p className="text-sm text-green-500 font-medium">Nature's Path to Wellness</p>
+                <h2 className="text-2xl font-bold text-[#008236]">Svayambhu Organics</h2>
+                <p className="text-sm text-gray-600 italic">Rooted in Tradition, Grown by Nature</p>
               </div>
             </div>
-            
+
             <p className="text-sm italic leading-relaxed text-gray-600 mb-6">
-              Promoting holistic wellness through the ancient wisdom of Ayurveda. 
+              Promoting holistic wellness through the ancient wisdom of Ayurveda.
               Natural healing for mind, body, and spirit with authentic organic products.
             </p>
-            
+
             {/* Contact Info */}
             <div className="space-y-2 mb-6">
               <div className="flex items-center text-sm text-gray-600">
@@ -40,7 +44,7 @@ const Footer = () => {
                 <span>sales@svayambhuorganics.com</span>
               </div>
             </div>
-            
+
             {/* Newsletter */}
             <div>
               <h3 className="text-lg font-semibold text-green-700 mb-3">Stay Connected</h3>
@@ -53,7 +57,7 @@ const Footer = () => {
                   placeholder="Enter your email address"
                   className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
                 />
-                <button 
+                <button
                   onClick={(e) => {
                     e.preventDefault();
                     alert('Thank you for subscribing! You will receive wellness tips and updates.');

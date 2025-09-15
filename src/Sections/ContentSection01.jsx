@@ -51,8 +51,7 @@ const ContentSection01 = () => {
                                     <span className="text-green-600 p-3 rounded-2xl bg-green-100 font-medium text-sm uppercase tracking-wider"># Trending Product</span>
                                 </div>
 
-                                <h2 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                                    About <span className="text-green-600">Moringa</span>
+                                <h2 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight"><span className="text-green-600">Moringa</span>
                                     <div className="inline-block ml-4">
                                         <svg viewBox="0 0 100 50" className="w-16 h-8 text-green-300">
                                             <path d="M10 25 Q30 10 50 25 T90 25" stroke="currentColor" strokeWidth="2" fill="none" />
