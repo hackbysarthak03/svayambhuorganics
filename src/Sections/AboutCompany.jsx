@@ -3,7 +3,7 @@ import { Leaf, Heart, Globe, Award } from "lucide-react";
 
 const AboutCompany = () => {
   return (
-    <section className="py-6 px-6 mb-20 md:px-16 bg-white">
+    <section id="aboutSection" className="py-6 px-6 mb-20 md:px-16 bg-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>

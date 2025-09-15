@@ -1,5 +1,6 @@
 import { Bell, User, ShoppingBag, Download, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,34 +13,36 @@ const Navbar = () => {
                     <div className="bg-white/70 backdrop-blur-md rounded-full shadow-2xl px-8 py-4">
                         <div className="flex justify-between items-center">
                             {/* Logo */}
-                            <div className="flex items-center">
+                            <Link to={
+                                { pathname: "/" }
+                            } className="flex items-center">
                                 <div className="w-20 h-20 rounded-full flex items-center justify-center mr-3">
                                     <img src="https://res.cloudinary.com/doy34nvkz/image/upload/v1757679275/Untitled_design_28_fgkwqm.png" alt="Svayambhu Organics Logo" />
                                 </div>
-                            </div>
+                            </Link>
 
                             {/* Navigation Items */}
                             <div className="flex items-center space-x-12">
-                                <a href="#" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
+                                <a href="#aboutSection" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
                                     Who we are?
                                 </a>
-                                <a href="#" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
+                                <a href="#shopCategories" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
                                     Shop with us
                                 </a>
-                                <a href="#" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
+                                <a href="#trendingProducts" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
                                     Trending Products
                                 </a>
-                                <a href="#" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
+                                <a href="#contactSection" className="text-gray-700 hover:text-green-600 text-sm font-medium transition-colors">
                                     Contact Us
                                 </a>
                             </div>
 
                             {/* Right Icons */}
                             <div className="flex items-center space-x-3">
-                                <button className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                                <button className="w-10 h-10 cursor-pointer bg-[#008236] hover:bg-black rounded-full flex items-center justify-center transition-colors">
                                     <Bell className="w-5 h-5 text-white" />
                                 </button>
-                                <button className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                                <button className="w-10 h-10 cursor-pointer bg-[#008236] hover:bg-black rounded-full flex items-center justify-center transition-colors">
                                     <User className="w-5 h-5 text-white" />
                                 </button>
                             </div>

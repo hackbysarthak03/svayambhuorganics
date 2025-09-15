@@ -104,7 +104,7 @@ const ContentSection02 = () => {
                                 <div className="relative z-10 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                                     <div className="bg-white p-4 rounded-3xl shadow-2xl">
                                         <img
-                                            src="https://res.cloudinary.com/doy34nvkz/image/upload/v1757680804/fa246ce0-054b-4892-bf30-5eb43cd938aa-thumb_1_t9h0cz.jpg"
+                                            src="https://ik.imagekit.io/wnwwpicnc/GettyImages-1145055978.jpg?updatedAt=1757940325638"
                                             alt="Fresh Moringa leaves and seeds"
                                             className="w-full h-80 object-cover rounded-2xl" />
                                     </div>

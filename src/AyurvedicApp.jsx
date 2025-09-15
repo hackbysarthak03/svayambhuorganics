@@ -85,7 +85,7 @@ const AyurvedicApp = () => {
                             {/* Slide title */}
                             <div className="absolute inset-0 flex items-center justify-center text-center">
                                 <h1 
-                                    className="text-white text-4xl md:text-6xl font-bold max-w-4xl leading-tight"
+                                    className="text-white text-2xl md:text-4xl font-bold max-w-4xl leading-tight"
                                     data-aos="fade-up"
                                     data-aos-duration="1200"
                                     key={`title-${index}-${currentSlide}`} // Force re-animation on slide change
@@ -176,7 +176,7 @@ const AyurvedicApp = () => {
                 </div>
             </div>
 
-            <section className="min-h-screen bg-gray-50 py-20 relative overflow-hidden">
+            <section className="min-h-screen bg-gray-50 px-10 py-20 relative overflow-hidden">
                 {/* Decorative Elements */}
                 <div 
                     className="absolute top-20 right-20 opacity-20"

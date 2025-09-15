@@ -38,7 +38,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full py-16 px-6 bg-transparent">
+    <section id="contactSection" className="w-full py-16 px-6 bg-transparent">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Column */}
         <div className="space-y-6">

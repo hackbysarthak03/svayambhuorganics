@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContentSection01 = () => {
   return (
-    <div>
+    <div id='trendingProducts'>
       <div className="max-w-7xl mx-auto">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         {/* Image */}
@@ -19,7 +19,7 @@ const ContentSection01 = () => {
                                 <div className="relative z-10 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                                     <div className="bg-white p-4 rounded-3xl shadow-2xl">
                                         <img
-                                            src="https://res.cloudinary.com/doy34nvkz/image/upload/v1757678665/moringa-6582660_h2g83r.jpg"
+                                            src="https://ik.imagekit.io/wnwwpicnc/neha-maheen-mahfin-WOvJOiPwgY4-unsplash.jpg?updatedAt=1757940147191"
                                             alt="Fresh Moringa leaves and seeds"
                                             className="w-full h-80 object-cover rounded-2xl" />
                                     </div>
