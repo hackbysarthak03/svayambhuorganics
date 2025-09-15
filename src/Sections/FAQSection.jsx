@@ -116,10 +116,7 @@ const FAQSection = () => {
 
         {/* Contact CTA */}
         <div className="text-center mt-16">
-          <p className="text-[#008236] mb-6">Still have questions? We're here to help!</p>
-          <button className="bg-[#008236] text-white px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 cursor-pointer">
-            Contact Our Experts
-          </button>
+          <p className="text-[#008236] text-xl font-bold mb-6">Still have questions? We're here to help!</p>
         </div>
       </div>
     </section>

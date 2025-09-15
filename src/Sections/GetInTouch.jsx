@@ -16,7 +16,7 @@ const GetInTouch = () => {
     console.log("🚀 Sending request with:", { firstname, lastname, email, phone, message });
 
     try {
-      const response = await fetch("http://mailer-backend-np6h.onrender.com/send", {
+      const response = await fetch("https://mailer-backend-np6h.onrender.com/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ firstname, lastname, email, phone, message }),
