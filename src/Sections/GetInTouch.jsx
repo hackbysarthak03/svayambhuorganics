@@ -38,12 +38,12 @@ const GetInTouch = () => {
   };
 
   return (
-    <section id="contactSection" className="w-full py-16 px-6 bg-transparent">
+    <section id="contactSection" className="w-full py-16 px-6 bg-[#EDFDF7]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Column */}
         <div className="space-y-6">
           <h2 className="text-5xl font-bold">
-            Let's <span className="text-[#008236]">Collaborate!</span>
+            Get in <span className="text-[#008236]">Touch!</span>
           </h2>
           <p className="text-lg italic text-gray-700 leading-relaxed">
             We are here to connect, collaborate, and create meaningful solutions.  
@@ -62,7 +62,7 @@ const GetInTouch = () => {
         </div>
 
         {/* Right Column - Contact Form */}
-        <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-lg">
+        <div className="bg-white backdrop-blur-md rounded-2xl p-8 shadow-lg">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input type="text" placeholder="First Name" value={firstname} onChange={(e)=>setFirstname(e.target.value)} required className="w-full p-3 rounded-lg border border-gray-300" />

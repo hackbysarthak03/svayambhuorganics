@@ -62,7 +62,7 @@ const Certifications = () => {
                   key={index}
                   className="flex-shrink-0 w-64 h-40 rounded-xl p-6 transition-all duration-300 group"
                 >
-                  <div className="flex items-center justify-center h-20 mb-4 bg-gray-50 rounded-lg transition-colors duration-200">
+                  <div className="flex items-center justify-center h-20 mb-4 bg-transparent rounded-lg transition-colors duration-200">
                     <div 
                       className="w-16 h-16 bg-cover bg-center rounded-lg"
                       style={{ backgroundImage: `url(${cert.image})` }}
@@ -115,13 +115,18 @@ const Certifications = () => {
                   name: "EU Organic Certification",
                   image: "https://res.cloudinary.com/doy34nvkz/image/upload/v1757753809/Untitled_design_65_t8o6y5.png",
                   type: "Certifed Organic Standards"
+                },
+                {
+                  name: "FSSAI License",
+                  image: "https://res.cloudinary.com/doy34nvkz/image/upload/v1758101915/455842efcc3b200cd3f2dab288eb3cd2_1_ymuivy.png",
+                  type: "Food Safety and Security"
                 }
               ].map((cert, index) => (
                 <div 
                   key={`duplicate-${index}`}
                   className="flex-shrink-0 w-64 h-40  p-6 transition-all duration-300 group"
                 >
-                  <div className="flex items-center justify-center h-20 mb-4 rounded-lg transition-colors duration-200">
+                  <div className="flex items-center justify-center bgg-transparent h-20 mb-4 rounded-lg transition-colors duration-200">
                     <div 
                       className="w-16 h-16 bg-cover bg-center rounded-lg"
                       style={{ backgroundImage: `url(${cert.image})` }}
