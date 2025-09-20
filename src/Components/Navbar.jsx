@@ -101,10 +101,10 @@ const Navbar = () => {
                   <Bell className="h-5 w-5" />
                   <span className="absolute -top-1 -right-1 h-4 w-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">3</span>
                 </button>
-                <button className="p-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-full transition-colors relative">
+                <Link to='/cart' className="p-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-full transition-colors relative">
                   <ShoppingBag className="h-5 w-5" />
                   <span className="absolute -top-1 -right-1 h-4 w-4 bg-green-500 text-white text-xs rounded-full flex items-center justify-center">2</span>
-                </button>
+                </Link>
                 <button className="p-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-full transition-colors">
                   <User className="h-5 w-5" />
                 </button>
@@ -274,11 +274,11 @@ const Navbar = () => {
                   <span className="text-xs">Alerts</span>
                   <span className="absolute -top-1 -right-1 h-4 w-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">3</span>
                 </button>
-                <button className="flex flex-col items-center p-3 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors relative">
+                <Link to='/cart' className="flex flex-col items-center p-3 text-gray-600 hover:text-green-600 rounded-lg transition-colors relative cursor-pointer">
                   <ShoppingBag className="h-5 w-5 mb-1" />
                   <span className="text-xs">Cart</span>
                   <span className="absolute -top-1 -right-1 h-4 w-4 bg-green-500 text-white text-xs rounded-full flex items-center justify-center">2</span>
-                </button>
+                </Link>
                 <button className="flex flex-col items-center p-3 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors">
                   <User className="h-5 w-5 mb-1" />
                   <span className="text-xs">Account</span>

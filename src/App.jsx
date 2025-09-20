@@ -18,6 +18,7 @@ import GetInTouch from "./Sections/GetInTouch";
 import ContactUsPage from "./Pages/ContactUs";
 import ProductPage from "./Pages/ProductPage";
 import DashboardLayout from "./Admin/DashboardLayout";
+import CartPage from "./Pages/CartPage";
 
 
 function LoadingScreen({ isFading }) {
@@ -54,6 +55,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<BasicLayout />}>
           <Route index element={<AyurvedicApp />} />
           <Route path="about" element={<AboutUs />} />
+          <Route path="cart" element={<CartPage />} />
           <Route path="contact-us" element={<ContactUsPage />} />
           <Route path="products" element={<ProductPage />} />
           <Route path="products/:category" element={<CategoryPage />} />
